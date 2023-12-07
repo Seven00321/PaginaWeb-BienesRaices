@@ -1,42 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anuncios</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
-    <!--    Header  -->
-    <header class="header">
-        <div class="contenedor">
-            <!--    Barra   -->
-            <div class="barra">
-                <!--    Logo  -->
-                <a href="/">
-                    <img src="build/img/logo.svg" alt="Logotipo Bienes Raíces">
-                </a>
-
-                <!--    Logo menu -->
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono menu resposive">
-                </div>
-
-                <!--    Navegacion  -->
-                <div class="derecha">
-                    <img class="dark-mode-boton" src="build/img/dark-mode.svg" alt="Boton Oscuro">
-
-                    <nav class="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php
+    require 'includes/funciones.php';
+    incluirTemplate('header');
+?>
 
     <!--    Main  -->
     <main class="contenedor seccion">
@@ -76,7 +41,7 @@
                     </ul>
 
                     <!--    Anuncio    -->
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div> <!-- Conenido anuncio-->
@@ -116,7 +81,7 @@
                     </ul>
 
                     <!--    Anuncio    -->
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div> <!-- Conenido anuncio-->
@@ -156,7 +121,7 @@
                     </ul>
 
                     <!--    Anuncio    -->
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div> <!-- Conenido anuncio-->
@@ -178,25 +143,25 @@
                     <ul class="iconos-caracteristicas">
                         <!--    Baños -->
                         <li>
-                            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
+                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <!--    Estacionamientos -->
                         <li>
-                            <img src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
+                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <!--    Dormitorios -->
                         <li>
-                            <img src="build/img/icono_dormitorio.svg" alt="icono dormitorio" loading="lazy">
+                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono dormitorio" loading="lazy">
                             <p>3</p>
                         </li>
                     </ul>
 
                     <!--    Anuncio    -->
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div> <!-- Conenido anuncio-->
@@ -218,25 +183,25 @@
                     <ul class="iconos-caracteristicas">
                         <!--    Baños -->
                         <li>
-                            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
+                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <!--    Estacionamientos -->
                         <li>
-                            <img src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
+                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <!--    Dormitorios -->
                         <li>
-                            <img src="build/img/icono_dormitorio.svg" alt="icono dormitorio" loading="lazy">
+                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono dormitorio" loading="lazy">
                             <p>3</p>
                         </li>
                     </ul>
 
                     <!--    Anuncio    -->
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div> <!-- Conenido anuncio-->
@@ -258,25 +223,25 @@
                     <ul class="iconos-caracteristicas">
                         <!--    Baños -->
                         <li>
-                            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
+                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <!--    Estacionamientos -->
                         <li>
-                            <img src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
+                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <!--    Dormitorios -->
                         <li>
-                            <img src="build/img/icono_dormitorio.svg" alt="icono dormitorio" loading="lazy">
+                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono dormitorio" loading="lazy">
                             <p>3</p>
                         </li>
                     </ul>
 
                     <!--    Anuncio    -->
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div> <!-- Conenido anuncio-->
@@ -285,23 +250,6 @@
         </div><!-- Contenedor Anuncio-->
     </main>
 
-
-    <!--    Footer  -->
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <!--    Navegacion  -->
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-        <!-- Derechos de Autor-->
-        <p class="copyright">Todos los derechos reservados 2023 &copy;</p>
-    </footer>
-
-    <script src="build/js/bundle.min.js"></script>
-</body>
-</html>
+<?php
+    incluirTemplate('footer');
+?>
